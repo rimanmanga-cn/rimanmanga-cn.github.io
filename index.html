@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>日漫manga - 日本动漫漫画作品索引_最新番剧与连载一览</title>
+<meta name="description" content="日漫manga收录日本动漫与漫画作品索引：漫画分类、最新日漫、话数追更、网点密度读数与新番资讯，每日更新，手机端自适应，找日漫就上日漫manga。">
+<meta name="keywords" content="日漫manga,日漫漫画,日本动漫,日本漫画,漫画分类,最新日漫,番剧推荐,剧场版动画,话数追更,连载进度,新番资讯,人气排行">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#f7f3ea">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="https://www.rimanmanga.cn/">
+<link rel="apple-touch-icon" href="/favicon.ico">
+<link rel="alternate" hreflang="zh-CN" href="https://www.rimanmanga.cn/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="日漫manga">
+<meta property="og:title" content="日漫manga - 日本动漫漫画作品索引">
+<meta property="og:description" content="日漫manga每日更新日本动漫与漫画作品索引、连载进度与新番资讯。">
+<meta property="og:url" content="https://www.rimanmanga.cn/">
+<meta property="og:image" content="https://www.rimanmanga.cn/favicon.ico">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="日漫manga - 日本动漫漫画作品索引">
+<meta name="twitter:description" content="日漫manga每日更新日本动漫与漫画作品索引、连载进度与新番资讯。">
+<style>
+:root{
+  --washi:#f7f3ea;--paper:#fffdf8;--paper2:#f1ece0;--paper3:#e8e1d1;
+  --ink:#141416;--ink2:#3a3a42;--gray:#6d6d78;--dim:#9a9aa4;
+  --red:#c8102e;--navy:#1f3a5f;--gold:#c9a227;--green:#3f7a55;
+  --line:#d9d3c3;--line2:#c5bda9;
+  --mo:Consolas,"SF Mono",Menlo,monospace;
+  --sh:0 8px 20px rgba(30,26,18,.10);--shh:0 22px 44px rgba(30,26,18,.20);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:142px}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif;
+  background:var(--washi);color:var(--ink);line-height:1.76;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+  background-image:radial-gradient(760px 460px at 86% -6%,rgba(200,16,46,.07),transparent 70%),
+                   radial-gradient(680px 420px at 4% 6%,rgba(31,58,95,.07),transparent 72%)}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+:focus-visible{outline:3px solid var(--red);outline-offset:2px;border-radius:4px}
+.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 18px}
+.skip{position:absolute;left:-9999px;top:0;z-index:99}
+.skip:focus{left:10px;top:10px;background:#fff;border:2px solid var(--red);padding:8px 14px;border-radius:6px}
+.mo{font-family:var(--mo)}
+/* 网点纸 */
+.tone{background-image:radial-gradient(circle at 50% 50%,var(--ink) .9px,transparent 1.1px);background-size:var(--d,7px) var(--d,7px)}
+.tone2{background-image:radial-gradient(circle at 50% 50%,var(--ink) 1.1px,transparent 1.3px);background-size:5px 5px}
+
+.topbar{background:linear-gradient(90deg,#141416,#2b2b31 46%,#3f3f47);color:#efe9dc;font-size:13px}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;height:38px;gap:12px}
+.topbar .tip{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topbar .tip b{color:#f2b8c0}
+.topbar nav a{margin-left:14px;white-space:nowrap;font-weight:700}
+.topbar nav a:hover{text-decoration:underline}
+
+header.site{position:sticky;top:0;z-index:50;background:rgba(247,243,234,.96);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line2)}
+.hd{display:flex;align-items:center;gap:16px;padding:13px 0}
+.logo{display:flex;align-items:center;gap:11px;flex:0 0 auto}
+.logo .km{position:relative;width:28px;height:28px;flex:0 0 auto;background:var(--paper);border:2.5px solid var(--ink);
+  box-shadow:3px 3px 0 var(--ink)}
+.logo .km i{position:absolute;left:0;right:0;top:0;bottom:0;
+  background-image:radial-gradient(circle at 50% 50%,var(--ink) .8px,transparent 1px);background-size:4px 4px;opacity:.5}
+.logo .km s{position:absolute;left:7px;top:7px;width:9px;height:9px;border-radius:50%;background:var(--red);text-decoration:none}
+.logo b{font-size:21px;letter-spacing:1px;color:var(--ink)}
+.logo b i{font-style:normal;color:var(--red)}
+.logo small{display:block;font-size:10px;letter-spacing:3px;color:var(--gray);font-family:var(--mo)}
+.search{flex:1 1 auto;display:flex;max-width:420px;background:var(--paper);border:2px solid var(--ink);border-radius:4px;padding:4px}
+.search input{flex:1;border:0;background:transparent;height:34px;padding:0 14px;font-size:14px;color:var(--ink)}
+.search input::placeholder{color:#a4a4ae}
+.search button{border:0;border-radius:2px;background:var(--ink);color:var(--washi);font-size:14px;padding:0 18px;
+  cursor:pointer;font-weight:800}
+.search button:hover{background:var(--red)}
+.navrow{border-top:1px solid var(--line)}
+.navrow ul{display:flex;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.navrow ul::-webkit-scrollbar{display:none}
+.navrow a{display:block;white-space:nowrap;padding:10px 14px;font-size:14px;color:#4f4f5a;font-weight:600}
+.navrow li+li a{border-left:1px solid var(--line)}
+.navrow a:hover{background:var(--paper2);color:var(--red)}
+.navrow a.active{background:var(--ink);color:var(--washi)}
+
+/* ===== hero: 漫画跨页 ===== */
+.hero{margin:20px 0 0;background:var(--paper);border:2.5px solid var(--ink);border-radius:6px;overflow:hidden;box-shadow:6px 6px 0 rgba(20,20,22,.10)}
+.spread{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:0;min-height:300px;background:var(--paper)}
+.spread .gutter{position:absolute;left:50%;top:0;bottom:0;width:2px;margin-left:-1px;background:var(--ink);z-index:4}
+.spread .gutter:after{content:"";position:absolute;left:50%;top:0;bottom:0;width:16px;margin-left:-8px;
+  background:linear-gradient(90deg,rgba(20,20,22,.14),transparent 40%,rgba(20,20,22,.14))}
+.page{position:relative;padding:12px;display:flex;flex-direction:column;gap:8px}
+.koma{position:relative;border:2.5px solid var(--ink);background:var(--paper);overflow:hidden}
+.koma.big{flex:1 1 auto;display:flex;align-items:center;justify-content:center;min-height:150px}
+.speed{position:absolute;inset:0;
+  background:repeating-conic-gradient(from 0deg at 50% 42%,var(--ink) 0deg 1.1deg,transparent 1.1deg 4.4deg);
+  -webkit-mask-image:radial-gradient(circle at 50% 42%,transparent 9%,#000 26%);
+  mask-image:radial-gradient(circle at 50% 42%,transparent 9%,#000 26%);opacity:.9}
+.koma.big .halo{position:absolute;left:50%;top:42%;width:76%;height:70%;transform:translate(-50%,-50%);border-radius:50%;
+  background:radial-gradient(circle,var(--paper) 52%,rgba(255,253,248,.86) 68%,transparent 78%)}
+.koma.big .ttl{position:relative;z-index:2;text-align:center;padding:6px 10px}
+.koma.big .ttl .jp{display:block;font-family:var(--mo);font-size:10px;letter-spacing:4px;color:var(--red);font-weight:800}
+.koma.big .ttl b{display:block;font-size:26px;letter-spacing:2px;color:var(--ink);margin-top:2px}
+.koma.big .ttl b em{font-style:normal;color:var(--red)}
+.koma.big .ttl s{display:block;text-decoration:none;font-size:11px;color:var(--gray);margin-top:3px;letter-spacing:1px}
+.koma .sfx{position:absolute;right:8px;top:6px;z-index:3;font-size:13px;font-weight:900;color:var(--ink);
+  transform:rotate(-12deg);letter-spacing:1px}
+.koma .sfx.r{color:var(--red)}
+.bub{position:relative;background:var(--paper);border:2.5px solid var(--ink);border-radius:50%/46%;
+  padding:12px 16px;text-align:center;font-size:12.5px;color:var(--ink2);line-height:1.6}
+.bub:after,.bub:before{content:"";position:absolute;left:50%;bottom:-16px;width:0;height:0}
+.bub:after{margin-left:-9px;border-left:9px solid transparent;border-right:9px solid transparent;border-top:16px solid var(--ink)}
+.bub:before{margin-left:-6px;bottom:-11px;z-index:2;border-left:6px solid transparent;border-right:6px solid transparent;
+  border-top:11px solid var(--paper)}
+.koma.mini{display:flex;align-items:center;justify-content:center;padding:10px;min-height:74px}
+.koma.mini .row{position:relative;z-index:2;display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+.koma.mini .row span{font-size:12px;color:var(--ink2)}
+.koma.mini .row b{font-family:var(--mo);font-size:15px;color:var(--red)}
+.hero .inner{padding:22px 24px 28px;text-align:center;border-top:2.5px solid var(--ink)}
+.hero .kick{display:inline-block;font-family:var(--mo);font-size:11px;letter-spacing:4px;color:var(--red);
+  border:2px solid var(--red);border-radius:4px;padding:4px 16px}
+.hero h1{font-size:31px;line-height:1.34;margin:14px 0 12px;color:var(--ink);letter-spacing:1px;max-width:16em;margin-left:auto;margin-right:auto}
+.hero h1 em{font-style:normal;color:var(--red);border-bottom:3px solid var(--gold);padding-bottom:2px}
+.hero p{font-size:15px;color:#4f4f5a;max-width:38em;margin:0 auto}
+.hero .btns{margin-top:20px;display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.hero .btns a{font-size:14px;font-weight:800;border:2px solid var(--ink);border-radius:4px;padding:8px 22px;color:var(--ink);
+  box-shadow:3px 3px 0 rgba(20,20,22,.16)}
+.hero .btns a.solid{background:var(--ink);color:var(--washi)}
+.hero .btns a:hover{background:var(--red);border-color:var(--red);color:#fff}
+.hero .bar{margin-top:24px;display:flex;gap:26px;flex-wrap:wrap;justify-content:center;border-top:1px dashed var(--line2);padding-top:16px}
+.hero .bar b{display:block;font-size:23px;color:var(--red);font-family:var(--mo)}
+.hero .bar span{font-size:12px;color:var(--gray)}
+
+section{margin:34px 0;scroll-margin-top:142px}
+.shead{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:16px;padding-bottom:9px;
+  border-bottom:2px solid var(--ink)}
+.shead .lt{display:flex;align-items:flex-end;gap:10px}
+.shead .mk{flex:0 0 auto;font-size:11px;letter-spacing:2px;font-weight:800;color:var(--washi);
+  background:var(--ink);padding:4px 12px;border-radius:4px;font-family:var(--mo)}
+.shead h2{font-size:21px;color:var(--ink);display:flex;align-items:center;gap:9px}
+.shead h2 em{font-style:normal;font-size:11px;letter-spacing:3px;color:var(--gray);font-family:var(--mo)}
+.shead p{font-size:12px;color:var(--gray);margin-top:2px}
+.shead a.more{font-size:13px;font-weight:800;color:var(--ink);flex:0 0 auto;border:2px solid var(--ink);
+  background:var(--paper);border-radius:4px;padding:4px 14px}
+.shead a.more:hover{background:var(--red);border-color:var(--red);color:#fff}
+
+/* ===== 漫画格分类 ===== */
+.genres{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding:22px 16px 16px;
+  background:var(--paper2);border:2px solid var(--ink);border-radius:6px}
+.gr{position:relative;background:var(--paper);border:2.5px solid var(--ink);border-radius:3px;padding:14px 12px 13px;
+  text-align:center;transition:.22s;box-shadow:3px 3px 0 rgba(20,20,22,.14)}
+.gr:hover{transform:translate(-2px,-3px);box-shadow:7px 8px 0 rgba(20,20,22,.22);border-color:var(--red)}
+.gr .sw{position:relative;height:74px;margin-bottom:9px;border:2px solid var(--ink);overflow:hidden;
+  background-color:hsl(var(--h),46%,92%)}
+.gr .sw i{position:absolute;inset:0;
+  background-image:radial-gradient(circle at 50% 50%,var(--ink) .9px,transparent 1.1px);background-size:var(--sd,8px) var(--sd,8px);
+  opacity:.85}
+.gr .sw s{position:absolute;left:0;right:0;bottom:0;height:38%;text-decoration:none;
+  background:linear-gradient(180deg,transparent,hsl(var(--h),52%,52%))}
+.gr .sw b{position:absolute;left:6px;top:5px;font-family:var(--mo);font-size:10px;font-weight:800;letter-spacing:1px;
+  color:var(--washi);background:var(--ink);padding:1px 7px;border-radius:2px}
+.gr b.t2{display:block;font-size:16px;color:var(--ink)}
+.gr .no{display:inline-block;font-family:var(--mo);font-size:10px;letter-spacing:1px;color:var(--washi);
+  background:var(--ink);border-radius:2px;padding:1px 8px;margin-top:3px}
+.gr span.num{display:block;font-size:11px;color:var(--gray);font-family:var(--mo);margin-top:3px}
+.g1{--h:210;--sd:8px}.g2{--h:150;--sd:6px}.g3{--h:38;--sd:5px}.g4{--h:340;--sd:9px}
+.g5{--h:265;--sd:7px}.g6{--h:190;--sd:4px}.g7{--h:20;--sd:6px}.g8{--h:88;--sd:8px}
+.genresnote{margin-top:16px;border-top:1px dashed var(--line2);padding-top:12px;font-size:12px;color:#4f4f5a;text-align:center}
+
+/* ===== 作品卡 ===== */
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px 16px}
+.card{background:var(--paper);border:2.5px solid var(--ink);border-radius:4px;overflow:hidden;transition:.24s;
+  box-shadow:3px 3px 0 rgba(20,20,22,.12)}
+.card:hover{transform:translate(-2px,-4px);box-shadow:8px 9px 0 rgba(20,20,22,.2);border-color:var(--red)}
+.cover{position:relative;aspect-ratio:3/4;display:flex;align-items:center;justify-content:center;color:#fff;
+  font-size:17px;font-weight:800;letter-spacing:1px;text-align:center;padding:15px;
+  background:linear-gradient(158deg,hsl(var(--h),44%,54%),hsl(var(--h),50%,24%))}
+.cover:before{content:"";position:absolute;inset:0;
+  background-image:radial-gradient(circle at 50% 50%,rgba(255,255,255,.42) .9px,transparent 1.1px);background-size:6px 6px}
+.cover:after{content:"";position:absolute;left:0;right:0;bottom:0;height:54%;
+  background:linear-gradient(180deg,transparent,rgba(12,12,16,.78))}
+.cover .nm{position:relative;z-index:1;text-shadow:0 2px 8px rgba(0,0,0,.5)}
+.cover .sc{position:absolute;left:8px;top:8px;z-index:1;background:var(--washi);color:var(--ink);font-size:12px;
+  padding:2px 9px;border-radius:2px;font-family:var(--mo);font-weight:800;border:2px solid var(--ink)}
+.cover .vol{position:absolute;right:8px;bottom:8px;z-index:1;background:var(--washi);color:var(--ink);
+  font-size:11px;padding:2px 9px;border-radius:2px;font-weight:800}
+.cover .gp{position:absolute;right:8px;top:8px;z-index:1;font-size:10px;font-weight:800;letter-spacing:1px;
+  color:var(--washi);background:var(--red);border-radius:2px;padding:2px 8px;font-family:var(--mo)}
+.card .bar2{display:flex;align-items:center;gap:8px;padding:10px 12px;border-bottom:2px solid var(--ink);background:var(--paper2)}
+.card .bar2 .sq{flex:0 0 auto;width:12px;height:12px;background:hsl(var(--h),52%,48%);border:1.5px solid var(--ink)}
+.card .bar2 b{flex:1 1 auto;min-width:0;font-size:15px;color:var(--ink)}
+.card .bar2 span{font-family:var(--mo);font-size:11px;color:var(--red);font-weight:800}
+.card .meta p{padding:9px 12px 13px;font-size:12px;color:var(--gray)}
+
+/* ===== 话数追更 ===== */
+.series{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.srow{background:var(--paper);border:2.5px solid var(--ink);border-radius:4px;padding:15px 16px 14px;
+  box-shadow:3px 3px 0 rgba(20,20,22,.12)}
+.srow:hover{border-color:var(--red)}
+.srow .top{display:flex;align-items:center;gap:11px;margin-bottom:12px}
+.srow .pic{flex:0 0 auto;width:50px;height:66px;border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;
+  color:#fff;font-size:11px;font-weight:800;text-align:center;padding:4px;position:relative;overflow:hidden;
+  background:linear-gradient(158deg,hsl(var(--h),44%,52%),hsl(var(--h),50%,24%))}
+.srow .pic span{position:relative;z-index:1}
+.srow h3{font-size:16px;color:var(--ink)}
+.srow .sub{font-size:12px;color:var(--gray)}
+.pages{display:flex;gap:3px;flex-wrap:wrap;padding:2px 0 4px}
+.pg2{position:relative;width:20px;height:30px;border:2px solid var(--ink);background:var(--paper);overflow:hidden;border-radius:1px}
+.pg2.read{border-color:var(--ink)}
+.pg2.read i{position:absolute;inset:0;
+  background-image:radial-gradient(circle at 50% 50%,var(--ink) .8px,transparent 1px);background-size:4px 4px;opacity:.8}
+.pg2.now{width:24px;height:38px;border-color:var(--red);box-shadow:0 0 0 2px rgba(200,16,46,.2)}
+.pg2.now i{position:absolute;inset:0;
+  background:repeating-conic-gradient(from 0deg at 50% 50%,var(--red) 0deg 1.6deg,transparent 1.6deg 6deg);
+  -webkit-mask-image:radial-gradient(circle at 50% 50%,transparent 8%,#000 30%);
+  mask-image:radial-gradient(circle at 50% 50%,transparent 8%,#000 30%)}
+.pg2.now:before{content:"";position:absolute;left:50%;top:-11px;margin-left:-5px;width:0;height:0;
+  border-left:5px solid transparent;border-right:5px solid transparent;border-top:10px solid var(--red)}
+.srow .ep{display:flex;justify-content:space-between;font-size:11px;color:#4f4f5a;margin-top:8px;font-family:var(--mo)}
+
+/* ===== 网点密度读数 ===== */
+.dens{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.ds{background:var(--paper);border:2.5px solid var(--ink);border-radius:4px;padding:18px 16px 16px;text-align:center;
+  box-shadow:3px 3px 0 rgba(20,20,22,.12)}
+.patch{position:relative;height:104px;margin-bottom:10px;border:2px solid var(--ink);overflow:hidden;background:var(--paper)}
+.patch i{position:absolute;inset:0;
+  background-image:radial-gradient(circle at 50% 50%,var(--ink) .9px,transparent 1.1px);background-size:var(--d,8px) var(--d,8px)}
+.patch s{position:absolute;left:0;right:0;bottom:0;height:26%;text-decoration:none;
+  background:linear-gradient(180deg,transparent,rgba(255,253,248,.92))}
+.patch b{position:absolute;left:8px;bottom:6px;font-family:var(--mo);font-size:11px;font-weight:800;color:var(--ink);
+  background:var(--washi);border:2px solid var(--ink);padding:1px 8px;border-radius:2px}
+.ds .num{font-family:var(--mo);font-size:20px;font-weight:800;color:var(--red)}
+.ds .num i{font-style:normal;font-size:12px;color:var(--gray);margin-left:2px}
+.ds h3{font-size:14px;color:var(--ink);margin-top:2px}
+.ds p{font-size:12px;color:var(--gray);margin-top:3px}
+.densnote{margin-top:14px;font-size:12px;color:var(--gray);text-align:center}
+
+/* ===== 剧场版 ===== */
+.sky{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.mv{background:var(--paper);border:2.5px solid var(--ink);border-radius:4px;padding:16px;box-shadow:3px 3px 0 rgba(20,20,22,.12);
+  transition:.2s;border-top:6px solid var(--ink)}
+.mv:nth-child(2){border-top-color:var(--red)}
+.mv:nth-child(3){border-top-color:var(--navy)}
+.mv:nth-child(4){border-top-color:var(--gold)}
+.mv:nth-child(5){border-top-color:var(--green)}
+.mv:nth-child(6){border-top-color:#7a5cc8}
+.mv:nth-child(7){border-top-color:#3d6e7a}
+.mv:nth-child(8){border-top-color:#8a5a2c}
+.mv:hover{transform:translate(-2px,-3px);box-shadow:8px 9px 0 rgba(20,20,22,.2)}
+.mv .badge{display:inline-block;font-size:11px;border:2px solid var(--ink);border-radius:2px;padding:2px 10px;
+  margin-bottom:9px;font-weight:700;background:var(--paper2);color:var(--ink2);font-family:var(--mo)}
+.mv h3{font-size:15px;color:var(--ink)}
+.mv p{font-size:12px;color:var(--gray);margin-top:4px}
+.mv .foot{font-size:12px;color:var(--red);margin-top:10px;font-weight:800}
+
+.two{display:grid;grid-template-columns:1.2fr 1fr;gap:16px}
+.panelbox{background:var(--paper);border:2.5px solid var(--ink);border-radius:4px;padding:22px;box-shadow:3px 3px 0 rgba(20,20,22,.12)}
+.news li{display:flex;gap:14px;padding:13px 0;border-bottom:1px dashed var(--line2)}
+.news li:last-child{border-bottom:0}
+.news .dt{flex:0 0 auto;font-size:12px;font-family:var(--mo);color:var(--washi);background:var(--ink);
+  border-radius:2px;padding:3px 10px;height:24px;line-height:18px;font-weight:800}
+.news a{font-size:15px;color:var(--ink)}
+.news a:hover{color:var(--red)}
+.news span{display:block;font-size:12px;color:var(--gray);margin-top:2px}
+.board li{display:flex;align-items:center;gap:12px;padding:11px 0;border-bottom:1px dashed var(--line2)}
+.board li:last-child{border-bottom:0}
+.board .no{flex:0 0 auto;width:36px;height:28px;display:flex;align-items:center;justify-content:center;
+  font-family:var(--mo);font-size:11px;font-weight:800;background:var(--paper2);color:var(--gray);border:2px solid var(--line2)}
+.board li:nth-child(-n+3) .no{background:var(--ink);color:var(--washi);border-color:var(--ink)}
+.board .tt{flex:1 1 auto;min-width:0}
+.board .tt strong{font-size:15px;color:var(--ink)}
+.board .tt span{display:block;font-size:12px;color:var(--gray)}
+.board .hot{flex:0 0 auto;font-size:12px;color:var(--gray);font-family:var(--mo)}
+
+.faq{background:var(--paper);border:2.5px solid var(--ink);border-radius:4px;overflow:hidden;box-shadow:3px 3px 0 rgba(20,20,22,.12)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:last-child{border-bottom:0}
+.faq summary{cursor:pointer;padding:15px 20px;font-size:15px;font-weight:800;list-style:none;color:var(--ink);
+  display:flex;justify-content:space-between;gap:12px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"\25CF";flex:0 0 auto;font-size:12px;color:var(--red)}
+.faq details[open] summary:after{content:"\25CB"}
+.faq summary:hover{background:var(--paper2)}
+.faq .ans{padding:0 20px 16px;font-size:14px;color:#4f4f5a}
+
+.about{border:2.5px solid var(--ink);border-radius:6px;padding:28px 26px;position:relative;overflow:hidden;color:#f4efe2;
+  background:linear-gradient(135deg,#141416,#2b2b31 40%,#4a2730 74%,#1f3a5f)}
+.about:before{content:"";position:absolute;right:-40px;top:-60px;width:240px;height:240px;border-radius:50%;
+  background:radial-gradient(circle,rgba(200,16,46,.34),transparent 70%)}
+.about:after{content:"";position:absolute;inset:0;
+  background-image:radial-gradient(circle at 50% 50%,rgba(255,255,255,.1) .9px,transparent 1.1px);background-size:8px 8px}
+.about .in{position:relative}
+.about h2{font-size:21px;margin-bottom:10px}
+.about p{font-size:14px;margin-bottom:9px;max-width:60em;color:#e4ded0}
+.tags2{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}
+.tags2 a{border:2px solid rgba(255,255,255,.6);border-radius:4px;padding:5px 15px;font-size:13px;font-weight:700}
+.tags2 a:hover{background:#fff;color:var(--ink);border-color:#fff}
+
+footer{background:linear-gradient(180deg,#2b2b31,#141416);color:#ded8ca;margin-top:36px;padding:26px 0 36px;font-size:13px}
+footer .flink{display:flex;flex-wrap:wrap;gap:14px;margin:12px 0 16px}
+footer .flink a:hover{color:#f2b8c0}
+footer .copy{border-top:1px solid rgba(255,255,255,.16);padding-top:14px;color:#9a9488}
+footer .copy a{margin-right:14px}
+footer strong{color:#fff;font-size:16px;letter-spacing:1px}
+
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;background:var(--paper);border-top:2px solid var(--ink)}
+.mbar ul{display:flex}
+.mbar a{flex:1;text-align:center;padding:9px 0;font-size:12px;color:#4f4f5a}
+.mbar a b{display:block;font-size:15px;color:var(--red)}
+
+@media (max-width:1024px){
+  .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .genres{grid-template-columns:repeat(2,1fr)}
+  .sky{grid-template-columns:repeat(2,1fr)}
+  .dens{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:880px){.two{grid-template-columns:1fr}.series{grid-template-columns:1fr}}
+@media (max-width:768px){
+  .topbar nav{display:none}
+  .hd{flex-wrap:wrap;padding:12px 0;gap:10px}
+  .logo b{font-size:20px}
+  .search{max-width:none;flex:1 0 100%;order:3}
+  .spread{grid-template-columns:1fr}
+  .spread .gutter{display:none}
+  .page:nth-child(3){border-top:2px solid var(--ink)}
+  .koma.big{min-height:128px}
+  .koma.big .ttl b{font-size:20px}
+  .hero .inner{padding:20px 16px 26px}
+  .hero h1{font-size:23px;letter-spacing:0}
+  .hero p{font-size:14px}
+  .hero .bar{gap:18px}
+  .genres{grid-template-columns:repeat(2,1fr);gap:12px}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 12px}
+  .sky{grid-template-columns:1fr}
+  .dens{grid-template-columns:repeat(2,1fr)}
+  .shead h2{font-size:18px}
+  .mbar{display:block}
+  footer{padding-bottom:74px}
+}
+@media (max-width:420px){
+  .grid{grid-template-columns:1fr}
+  .dens{grid-template-columns:1fr}
+  .genres{grid-template-columns:1fr}
+  .hero h1{font-size:21px}
+  .pg2{width:16px;height:24px}
+  .pg2.now{width:20px;height:32px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
+@media print{.mbar,.search,header,.topbar{display:none}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":"https://www.rimanmanga.cn/#website","url":"https://www.rimanmanga.cn/","name":"日漫manga","alternateName":"日漫漫画网","description":"日漫manga收录日本动漫与漫画作品索引：漫画分类、最新日漫、话数追更、网点密度读数与新番资讯。","inLanguage":"zh-CN","publisher":{"@id":"https://www.rimanmanga.cn/#organization"},
+"potentialAction":{"@type":"SearchAction","target":"https://www.rimanmanga.cn/?s={search_term_string}","query-input":"required name=search_term_string"}},
+{"@type":"Organization","@id":"https://www.rimanmanga.cn/#organization","name":"日漫manga","url":"https://www.rimanmanga.cn/","logo":"https://www.rimanmanga.cn/favicon.ico"},
+{"@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"日漫manga首页","item":"https://www.rimanmanga.cn/"},
+{"@type":"ListItem","position":2,"name":"漫画分类","item":"https://www.rimanmanga.cn/#genre"},
+{"@type":"ListItem","position":3,"name":"最新日漫","item":"https://www.rimanmanga.cn/#works"}]},
+{"@type":"ItemList","name":"日漫manga热门作品","itemListElement":[
+{"@type":"ListItem","position":1,"name":"海街的邮筒"},
+{"@type":"ListItem","position":2,"name":"夏末电波"},
+{"@type":"ListItem","position":3,"name":"樱坂推理簿"},
+{"@type":"ListItem","position":4,"name":"山茶屋日记"},
+{"@type":"ListItem","position":5,"name":"银河食堂"}]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"日漫manga的漫画分类怎么用？","acceptedAnswer":{"@type":"Answer","text":"漫画分类把作品分成八格，G-01 至 G-08 各对应一类题材，每格是一张带墨线边框的网点色块，色块上方是黑色编号牌、下方渐变换上该格的主题色，网点颗粒的疏密各不相同，格下方标注题材名与收录作品数，点击即可进入对应作品单。"}},
+{"@type":"Question","name":"话数追更显示的是什么？","acceptedAnswer":{"@type":"Answer","text":"话数追更把连载进度做成一排漫画页格，已经看过的是填满网点的页格，被放大并描上红边、顶着一枚红色三角箭头的那格是当前最新话，还是空白的页格是尚未更新的话数，下方标注已更新话数与总话数。"}},
+{"@type":"Question","name":"网点密度读数是怎么算的？","acceptedAnswer":{"@type":"Answer","text":"网点密度读数用一块网点纸的颗粒疏密表示数值，网点的间距越小表示密度越高，数值也就越高，86 表示八成六，四项指标分别是今日上新、连载跟进度、资料完整度与新作占比，每日早间刷新一次。"}}]}]}
+</script>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+<a class="skip" href="#main">跳到主要内容</a>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="tip">日漫manga · <b>日漫与漫画作品索引</b> · 手机端自适应</span>
+    <nav aria-label="快捷入口"><a href="#">登录</a><a href="#">书架</a><a href="#">记录</a></nav>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <div class="hd">
+      <a class="logo" href="#" aria-label="日漫manga首页">
+        <span class="km" aria-hidden="true"><i></i><s></s></span>
+        <span><b>日漫<i>manga</i></b><small>JP MANGA INDEX</small></span>
+      </a>
+      <form class="search" action="#" method="get" role="search" onsubmit="return false;">
+        <label class="skip" for="q">搜索作品</label>
+        <input id="q" name="q" type="search" placeholder="搜索日漫manga的作品名、作者、题材…" autocomplete="off">
+        <button type="submit">检索</button>
+      </form>
+    </div>
+    <div class="navrow">
+      <ul aria-label="日漫manga栏目导航">
+        <li><a class="active" href="#">首页</a></li>
+        <li><a href="#genre">漫画分类</a></li>
+        <li><a href="#works">最新日漫</a></li>
+        <li><a href="#eps">话数追更</a></li>
+        <li><a href="#dens">网点读数</a></li>
+        <li><a href="#anime">剧场版</a></li>
+        <li><a href="#news">新番资讯</a></li>
+        <li><a href="#rank">人气排行</a></li>
+        <li><a href="#faq">常见问题</a></li>
+        <li><a href="#about">关于我们</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+
+    <section class="hero" aria-labelledby="h1">
+      <div class="spread" role="img" aria-label="日漫manga - 首屏是一张漫画跨页：左页的大格里有从中心发散的集中线与站名，右页是三个分镜格，分别放着对话框、数据行与小格，中间是一道装订线">
+        <span class="gutter" aria-hidden="true"></span>
+        <div class="page">
+          <div class="koma big">
+            <span class="speed" aria-hidden="true"></span>
+            <span class="halo" aria-hidden="true"></span>
+            <span class="sfx r" aria-hidden="true">ドン</span>
+            <div class="ttl">
+              <span class="jp">J P · M A N G A</span>
+              <b>日漫<em>manga</em></b>
+              <s>日本动漫与漫画作品索引</s>
+            </div>
+          </div>
+          <div class="koma mini">
+            <span class="row" aria-hidden="true">
+              <span>收录作品 <b>18000+</b></span><span>八大题材</span><span>每日上新 <b>24</b></span>
+            </span>
+          </div>
+        </div>
+        <div class="page">
+          <div class="koma mini" style="min-height:96px">
+            <div class="bub">按题材、卷数与连载状态<br>把日本动漫与漫画整理清楚</div>
+          </div>
+          <div class="koma mini">
+            <span class="row" aria-hidden="true">
+              <span>连载中 <b>326</b></span><span>已完结 <b>1580</b></span>
+            </span>
+          </div>
+          <div class="koma mini">
+            <span class="row" aria-hidden="true">
+              <span>剧场版 <b>640</b></span><span>单行本 <b>9600</b></span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="inner">
+        <span class="kick">M A N G A · 每 日 上 新</span>
+        <h1 id="h1">日漫manga — <em>日本动漫与漫画</em>作品索引</h1>
+        <p>日漫manga收录日本动漫与漫画作品索引：漫画分类按题材分成八格，话数追更记录连载看到第几话，网点密度读数用网点纸的颗粒疏密说明当日更新状态，手机电脑都能顺畅打开。</p>
+        <div class="btns"><a class="solid" href="#works">最新日漫</a><a href="#genre">漫画分类</a><a href="#eps">话数追更</a></div>
+        <div class="bar">
+          <div><b>18000+</b><span>收录作品</span></div>
+          <div><b>八格</b><span>题材分类</span></div>
+          <div><b>每日</b><span>连载更新</span></div>
+          <div><b>9600</b><span>单行本数</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="genre" aria-labelledby="t0">
+      <div class="shead"><div class="lt"><span class="mk">分类</span>
+        <div><h2 id="t0">漫画分类 <em>8 PANELS</em></h2><p>日漫manga · 一格一类题材</p></div></div><a class="more" href="#">全部分类 &gt;</a></div>
+      <div class="genres">
+        <a class="gr g1" href="#works"><span class="sw" aria-hidden="true"><i></i><s></s><b>G-01</b></span>
+          <b class="t2">少年</b><span class="no">G-01</span><span class="num">4820 部</span></a>
+        <a class="gr g2" href="#works"><span class="sw" aria-hidden="true"><i></i><s></s><b>G-02</b></span>
+          <b class="t2">治愈</b><span class="no">G-02</span><span class="num">3615 部</span></a>
+        <a class="gr g3" href="#works"><span class="sw" aria-hidden="true"><i></i><s></s><b>G-03</b></span>
+          <b class="t2">日常</b><span class="no">G-03</span><span class="num">2980 部</span></a>
+        <a class="gr g4" href="#works"><span class="sw" aria-hidden="true"><i></i><s></s><b>G-04</b></span>
+          <b class="t2">恋爱</b><span class="no">G-04</span><span class="num">2740 部</span></a>
+        <a class="gr g5" href="#works"><span class="sw" aria-hidden="true"><i></i><s></s><b>G-05</b></span>
+          <b class="t2">悬疑</b><span class="no">G-05</span><span class="num">1862 部</span></a>
+        <a class="gr g6" href="#works"><span class="sw" aria-hidden="true"><i></i><s></s><b>G-06</b></span>
+          <b class="t2">科幻</b><span class="no">G-06</span><span class="num">1440 部</span></a>
+        <a class="gr g7" href="#works"><span class="sw" aria-hidden="true"><i></i><s></s><b>G-07</b></span>
+          <b class="t2">热血</b><span class="no">G-07</span><span class="num">1296 部</span></a>
+        <a class="gr g8" href="#works"><span class="sw" aria-hidden="true"><i></i><s></s><b>G-08</b></span>
+          <b class="t2">青年</b><span class="no">G-08</span><span class="num">968 部</span></a>
+        <p class="genresnote">分类说明：日漫manga按题材把作品分成八格，编号 G-01 至 G-08，每格是一张带墨线边框的网点色块，色块左上角是黑色编号牌、下方渐变换上该格的主题色，八格网点颗粒的疏密各不相同（最密 4 像素、最疏 9 像素），格下方标注题材名与收录作品数。</p>
+      </div>
+    </section>
+
+    <section id="works" aria-labelledby="t1">
+      <div class="shead"><div class="lt"><span class="mk">作品</span>
+        <div><h2 id="t1">最新日漫</h2><p>日漫manga · 封面叠着网点，右下角是卷数</p></div></div><a class="more" href="#">作品库 &gt;</a></div>
+      <div class="grid">
+        <article class="card"><a href="#">
+          <span class="cover" style="--h:210" role="img" aria-label="日漫manga - 海街的邮筒 作品封面"><span class="sc">8.9</span><span class="gp">G-02</span><span class="vol">全 12 卷</span><span class="nm">海街的邮筒</span></span>
+          <div class="meta">
+            <div class="bar2"><span class="sq" aria-hidden="true"></span><b>海街的邮筒</b><span>治愈</span></div>
+            <p>治愈 · 连载中 · 已出 9 卷</p></div></a></article>
+        <article class="card"><a href="#">
+          <span class="cover" style="--h:150" role="img" aria-label="日漫manga - 夏末电波 作品封面"><span class="sc">9.0</span><span class="gp">G-03</span><span class="vol">全 8 卷</span><span class="nm">夏末电波</span></span>
+          <div class="meta">
+            <div class="bar2"><span class="sq" aria-hidden="true"></span><b>夏末电波</b><span>日常</span></div>
+            <p>日常 · 已完结 · 全 8 卷</p></div></a></article>
+        <article class="card"><a href="#">
+          <span class="cover" style="--h:38" role="img" aria-label="日漫manga - 樱坂推理簿 作品封面"><span class="sc">8.6</span><span class="gp">G-05</span><span class="vol">全 18 卷</span><span class="nm">樱坂推理簿</span></span>
+          <div class="meta">
+            <div class="bar2"><span class="sq" aria-hidden="true"></span><b>樱坂推理簿</b><span>悬疑</span></div>
+            <p>悬疑 · 连载中 · 已出 14 卷</p></div></a></article>
+        <article class="card"><a href="#">
+          <span class="cover" style="--h:340" role="img" aria-label="日漫manga - 山茶屋日记 作品封面"><span class="sc">8.4</span><span class="gp">G-04</span><span class="vol">全 6 卷</span><span class="nm">山茶屋日记</span></span>
+          <div class="meta">
+            <div class="bar2"><span class="sq" aria-hidden="true"></span><b>山茶屋日记</b><span>恋爱</span></div>
+            <p>恋爱 · 已完结 · 全 6 卷</p></div></a></article>
+        <article class="card"><a href="#">
+          <span class="cover" style="--h:265" role="img" aria-label="日漫manga - 银河食堂 作品封面"><span class="sc">8.7</span><span class="gp">G-06</span><span class="vol">全 22 卷</span><span class="nm">银河食堂</span></span>
+          <div class="meta">
+            <div class="bar2"><span class="sq" aria-hidden="true"></span><b>银河食堂</b><span>科幻</span></div>
+            <p>科幻 · 连载中 · 已出 17 卷</p></div></a></article>
+        <article class="card"><a href="#">
+          <span class="cover" style="--h:190" role="img" aria-label="日漫manga - 巷口剑道场 作品封面"><span class="sc">8.8</span><span class="gp">G-07</span><span class="vol">全 34 卷</span><span class="nm">巷口剑道场</span></span>
+          <div class="meta">
+            <div class="bar2"><span class="sq" aria-hidden="true"></span><b>巷口剑道场</b><span>热血</span></div>
+            <p>热血 · 已完结 · 全 34 卷</p></div></a></article>
+        <article class="card"><a href="#">
+          <span class="cover" style="--h:20" role="img" aria-label="日漫manga - 深巷理发店 作品封面"><span class="sc">8.2</span><span class="gp">G-08</span><span class="vol">全 10 卷</span><span class="nm">深巷理发店</span></span>
+          <div class="meta">
+            <div class="bar2"><span class="sq" aria-hidden="true"></span><b>深巷理发店</b><span>青年</span></div>
+            <p>青年 · 连载中 · 已出 7 卷</p></div></a></article>
+        <article class="card"><a href="#">
+          <span class="cover" style="--h:88" role="img" aria-label="日漫manga - 春野信箱 作品封面"><span class="sc">8.5</span><span class="gp">G-01</span><span class="vol">全 16 卷</span><span class="nm">春野信箱</span></span>
+          <div class="meta">
+            <div class="bar2"><span class="sq" aria-hidden="true"></span><b>春野信箱</b><span>少年</span></div>
+            <p>少年 · 连载中 · 已出 11 卷</p></div></a></article>
+      </div>
+    </section>
+
+    <section id="eps" aria-labelledby="t2">
+      <div class="shead"><div class="lt"><span class="mk">话数</span>
+        <div><h2 id="t2">话数追更</h2><p>看到第几话，就是漫画翻到第几页</p></div></div><a class="more" href="#">连载库 &gt;</a></div>
+      <div class="series">
+        <article class="srow">
+          <div class="top">
+            <span class="pic" style="--h:210" role="img" aria-label="日漫manga - 樱坂推理簿 连载封面"><span>樱坂推理簿</span></span>
+            <div><h3>樱坂推理簿</h3><p class="sub">悬疑 · 全 36 话 · 连载中</p></div>
+          </div>
+          <span class="pages" role="img" aria-label="话数进度 已更新 24 话，共 36 话">
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 now"><i></i></span>
+            <span class="pg2"></span><span class="pg2"></span><span class="pg2"></span></span>
+          <div class="ep"><span>已更新 24 / 36 话</span><span>评分 8.6</span></div>
+        </article>
+        <article class="srow">
+          <div class="top">
+            <span class="pic" style="--h:190" role="img" aria-label="日漫manga - 巷口剑道场 连载封面"><span>巷口剑道场</span></span>
+            <div><h3>巷口剑道场</h3><p class="sub">热血 · 全 24 话 · 连载中</p></div>
+          </div>
+          <span class="pages" role="img" aria-label="话数进度 已更新 12 话，共 24 话">
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 now"><i></i></span>
+            <span class="pg2"></span><span class="pg2"></span><span class="pg2"></span><span class="pg2"></span></span>
+          <div class="ep"><span>已更新 12 / 24 话</span><span>评分 8.8</span></div>
+        </article>
+        <article class="srow">
+          <div class="top">
+            <span class="pic" style="--h:265" role="img" aria-label="日漫manga - 银河食堂 连载封面"><span>银河食堂</span></span>
+            <div><h3>银河食堂</h3><p class="sub">科幻 · 全 10 话 · 连载中</p></div>
+          </div>
+          <span class="pages" role="img" aria-label="话数进度 已更新 6 话，共 10 话">
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span>
+            <span class="pg2 now"><i></i></span>
+            <span class="pg2"></span><span class="pg2"></span><span class="pg2"></span><span class="pg2"></span></span>
+          <div class="ep"><span>已更新 6 / 10 话</span><span>评分 8.7</span></div>
+        </article>
+        <article class="srow">
+          <div class="top">
+            <span class="pic" style="--h:150" role="img" aria-label="日漫manga - 夏末电波 连载封面"><span>夏末电波</span></span>
+            <div><h3>夏末电波</h3><p class="sub">日常 · 全 40 话 · 已完结</p></div>
+          </div>
+          <span class="pages" role="img" aria-label="已完结 40 话，全部页格已填满">
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span></span>
+          <div class="ep"><span>已完结 40 / 40 话</span><span>评分 9.0</span></div>
+        </article>
+        <article class="srow">
+          <div class="top">
+            <span class="pic" style="--h:20" role="img" aria-label="日漫manga - 深巷理发店 连载封面"><span>深巷理发店</span></span>
+            <div><h3>深巷理发店</h3><p class="sub">青年 · 全 16 话 · 已完结</p></div>
+          </div>
+          <span class="pages" role="img" aria-label="已完结 16 话，全部页格已填满">
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span></span>
+          <div class="ep"><span>已完结 16 / 16 话</span><span>评分 8.2</span></div>
+        </article>
+        <article class="srow">
+          <div class="top">
+            <span class="pic" style="--h:88" role="img" aria-label="日漫manga - 春野信箱 连载封面"><span>春野信箱</span></span>
+            <div><h3>春野信箱</h3><p class="sub">少年 · 全 32 话 · 连载中</p></div>
+          </div>
+          <span class="pages" role="img" aria-label="话数进度 已更新 12 话，共 32 话">
+            <span class="pg2 read"><i></i></span><span class="pg2 read"><i></i></span>
+            <span class="pg2 read"><i></i></span>
+            <span class="pg2 now"><i></i></span>
+            <span class="pg2"></span><span class="pg2"></span><span class="pg2"></span><span class="pg2"></span>
+            <span class="pg2"></span><span class="pg2"></span></span>
+          <div class="ep"><span>已更新 12 / 32 话</span><span>评分 8.5</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="dens" aria-labelledby="t3">
+      <div class="shead"><div class="lt"><span class="mk">网点</span>
+        <div><h2 id="t3">网点读数 <em>4 SCREENS</em></h2><p>日漫manga · 颗粒越密，数值越高</p></div></div><a class="more" href="#">指标说明 &gt;</a></div>
+      <div class="dens">
+        <article class="ds">
+          <span class="patch" role="img" aria-label="今日上新 86% 网点间距 4 像素，颗粒最密"><i style="--d:4px"></i><s></s><b>4px</b></span>
+          <span class="num">86<i>%</i></span>
+          <h3>今日上新</h3>
+          <p>当日新增作品占计划比例</p>
+        </article>
+        <article class="ds">
+          <span class="patch" role="img" aria-label="连载跟进度 92% 网点间距 3 像素，颗粒最密"><i style="--d:3px"></i><s></s><b>3px</b></span>
+          <span class="num">92<i>%</i></span>
+          <h3>连载跟进度</h3>
+          <p>连载作品当日更新完成情况</p>
+        </article>
+        <article class="ds">
+          <span class="patch" role="img" aria-label="资料完整度 78% 网点间距 6 像素"><i style="--d:6px"></i><s></s><b>6px</b></span>
+          <span class="num">78<i>%</i></span>
+          <h3>资料完整度</h3>
+          <p>卷数与作者信息齐全的比例</p>
+        </article>
+        <article class="ds">
+          <span class="patch" role="img" aria-label="新作占比 64% 网点间距 9 像素，颗粒最疏"><i style="--d:9px"></i><s></s><b>9px</b></span>
+          <span class="num">64<i>%</i></span>
+          <h3>新作占比</h3>
+          <p>近三年作品在库中的占比</p>
+        </article>
+      </div>
+      <p class="densnote">读数说明：网点读数用一块网点纸的颗粒疏密表示数值，网点间距越小表示密度越高、数值也就越高——92% 是 3 像素、86% 是 4 像素、78% 是 6 像素、64% 是 9 像素，色块左下角标着当前的间距数值，数据每日早间刷新一次。</p>
+    </section>
+
+    <section id="anime" aria-labelledby="t4">
+      <div class="shead"><div class="lt"><span class="mk">剧场</span>
+        <div><h2 id="t4">剧场版 · 动画</h2><p>日漫manga · 动画作品一览</p></div></div><a class="more" href="#">更多 &gt;</a></div>
+      <div class="sky">
+        <article class="mv">
+          <span class="badge">剧场版 · 2026</span>
+          <h3>海街的邮筒</h3><p>改编自同名漫画，画面风格贴近原作。</p>
+          <p class="foot">评分 9.2 · 116 分钟</p>
+        </article>
+        <article class="mv">
+          <span class="badge">TV 动画 · 2026</span>
+          <h3>夏末电波</h3><p>全 12 集，日常系的轻松叙事。</p>
+          <p class="foot">评分 8.8 · 每集 24 分钟</p>
+        </article>
+        <article class="mv">
+          <span class="badge">剧场版 · 2025</span>
+          <h3>银河食堂</h3><p>科幻题材，世界观设定完整。</p>
+          <p class="foot">评分 8.9 · 128 分钟</p>
+        </article>
+        <article class="mv">
+          <span class="badge">TV 动画 · 2025</span>
+          <h3>巷口剑道场</h3><p>热血题材，作画质量稳定。</p>
+          <p class="foot">评分 8.5 · 全 24 集</p>
+        </article>
+        <article class="mv">
+          <span class="badge">OVA · 2025</span>
+          <h3>深巷理发店</h3><p>短篇合集，适合一次补完。</p>
+          <p class="foot">评分 8.0 · 全 4 话</p>
+        </article>
+        <article class="mv">
+          <span class="badge">剧场版 · 2024</span>
+          <h3>山茶屋日记</h3><p>恋爱题材，剧本改编克制。</p>
+          <p class="foot">评分 8.1 · 98 分钟</p>
+        </article>
+        <article class="mv">
+          <span class="badge">TV 动画 · 2026</span>
+          <h3>春野信箱</h3><p>少年向，主线推进节奏明快。</p>
+          <p class="foot">评分 8.4 · 连载中</p>
+        </article>
+        <article class="mv">
+          <span class="badge">剧场版 · 2024</span>
+          <h3>樱坂推理簿</h3><p>悬疑题材，线索铺排细致。</p>
+          <p class="foot">评分 8.6 · 134 分钟</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="news" class="two" aria-labelledby="t5">
+      <div class="panelbox">
+        <div class="shead" style="border:0;padding:0;margin-bottom:8px"><div class="lt"><span class="mk">NEWS</span>
+          <div><h2 id="t5">新番资讯</h2><p>日漫manga · 连载与新番动态</p></div></div><a class="more" href="#">资讯首页 &gt;</a></div>
+        <ul class="news">
+          <li><span class="dt">09-17</span><a href="#">本周新番速览：三部作品同期开播<span>日漫manga整理本周值得关注的作品与看点</span></a></li>
+          <li><span class="dt">09-15</span><a href="#">单行本发行观察：近三月新卷上架节奏<span>盘点各出版社单行本的发行间隔</span></a></li>
+          <li><span class="dt">09-12</span><a href="#">连载市场观察：短篇集中连载渐成常态<span>10 至 20 话体量作品的占比变化</span></a></li>
+          <li><span class="dt">09-09</span><a href="#">剧场版定档：银河食堂第二章公布<span>制作方公布上映时间与制作阵容</span></a></li>
+          <li><span class="dt">09-05</span><a href="#">选书笔记：按题材分类与卷数挑一部漫画<span>日漫manga给出不同阅读时长的选书建议</span></a></li>
+        </ul>
+      </div>
+      <div class="panelbox" id="rank">
+        <div class="shead" style="border:0;padding:0;margin-bottom:8px"><div class="lt"><span class="mk">TOP</span>
+          <div><h2>人气排行</h2><p>日漫manga实时热度榜</p></div></div><a class="more" href="#">完整榜 &gt;</a></div>
+        <ul class="board">
+          <li><span class="no">G-01</span><span class="tt"><strong>海街的邮筒</strong><span>治愈 · 连载中</span></span><span class="hot">98.6万</span></li>
+          <li><span class="no">G-02</span><span class="tt"><strong>夏末电波</strong><span>日常 · 已完结</span></span><span class="hot">86.2万</span></li>
+          <li><span class="no">G-03</span><span class="tt"><strong>银河食堂</strong><span>科幻 · 连载中</span></span><span class="hot">74.5万</span></li>
+          <li><span class="no">G-04</span><span class="tt"><strong>巷口剑道场</strong><span>热血 · 已完结</span></span><span class="hot">68.9万</span></li>
+          <li><span class="no">G-05</span><span class="tt"><strong>樱坂推理簿</strong><span>悬疑 · 连载中</span></span><span class="hot">61.3万</span></li>
+          <li><span class="no">G-06</span><span class="tt"><strong>山茶屋日记</strong><span>恋爱 · 已完结</span></span><span class="hot">55.7万</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="faq" aria-labelledby="t6">
+      <div class="shead"><div class="lt"><span class="mk">FAQ</span>
+        <div><h2 id="t6">常见问题</h2><p>日漫manga · 关于找作品与阅读</p></div></div><a class="more" href="#">更多问答 &gt;</a></div>
+      <div class="faq">
+        <details open><summary>日漫manga的漫画分类怎么用？</summary>
+          <div class="ans">漫画分类把作品分成八格，G-01 至 G-08 各对应一类题材，每格是一张带墨线边框的网点色块，色块上方是黑色编号牌、下方渐变换上该格的主题色，网点颗粒的疏密各不相同，格下方标注题材名与收录作品数，点击即可进入对应作品单。</div></details>
+        <details><summary>话数追更显示的是什么？</summary>
+          <div class="ans">话数追更把连载进度做成一排漫画页格，已经看过的是填满网点的页格，被放大并描上红边、顶着一枚红色三角箭头的那格是当前最新话，还是空白的页格是尚未更新的话数，下方标注已更新话数与总话数。</div></details>
+        <details><summary>网点密度读数是怎么算的？</summary>
+          <div class="ans">网点密度读数用一块网点纸的颗粒疏密表示数值，网点的间距越小表示密度越高，数值也就越高，86 表示八成六，四项指标分别是今日上新、连载跟进度、资料完整度与新作占比，每日早间刷新一次。</div></details>
+        <details><summary>手机端阅读需要安装插件吗？</summary>
+          <div class="ans">不需要。日漫manga采用响应式布局，手机浏览器直接打开即可浏览作品索引与连载进度，无需安装额外插件或客户端。</div></details>
+      </div>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="t7">
+      <div class="in">
+        <h2 id="t7">关于日漫manga</h2>
+        <p>日漫manga是一个把日本动漫与漫画整理清楚的资料索引站点，用漫画原稿的一套语言组织内容：漫画分类按题材把作品分成八格，每格是一张疏密不同的网点色块；话数追更把连载进度做成一排漫画页格，看过的是填满网点的页格；网点密度读数用网点纸的颗粒间距说明当日更新状态；剧场版与动画单列一格，方便对照原作与改编。一页一页翻，就是一部作品的来路。</p>
+        <p>网站采用响应式布局，手机、平板、桌面端都能获得一致的浏览体验；栏目结构清晰，关键词与内容一一对应，方便搜索引擎理解与收录。</p>
+        <div class="tags2">
+          <a href="#genre">漫画分类</a><a href="#works">最新日漫</a><a href="#eps">话数追更</a><a href="#dens">网点读数</a><a href="#anime">剧场版</a><a href="#news">新番资讯</a><a href="#rank">人气排行</a><a href="#">按年份</a><a href="#">按出版社</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>日漫manga</strong> · 日本动漫与漫画作品索引 · rimanmanga.cn</div>
+    <nav class="flink" aria-label="底部导航">
+      <a href="#genre">漫画分类</a><a href="#works">最新日漫</a><a href="#eps">话数追更</a><a href="#dens">网点读数</a><a href="#anime">剧场版</a><a href="#news">新番资讯</a><a href="#rank">人气排行</a><a href="#faq">常见问题</a><a href="#about">关于我们</a><a href="#">免责声明</a><a href="#">站点地图</a>
+    </nav>
+    <div class="copy">
+      <p>© 2026 日漫manga rimanmanga.cn　本站所展示的作品信息仅作资料索引之用。</p>
+      <p><a href="#">隐私政策</a><a href="#">使用条款</a><a href="#">联系我们</a><a href="#">意见反馈</a></p>
+    </div>
+  </div>
+</footer>
+
+<nav class="mbar" aria-label="移动端快捷导航">
+  <ul>
+    <li><a href="#"><b>◈</b>首页</a></li>
+    <li><a href="#genre"><b>▦</b>分类</a></li>
+    <li><a href="#works"><b>▤</b>作品</a></li>
+    <li><a href="#eps"><b>▧</b>话数</a></li>
+    <li><a href="#rank"><b>★</b>排行</a></li>
+  </ul>
+</nav>
+</body>
+</html>
